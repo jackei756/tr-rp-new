@@ -1,7 +1,26 @@
 # Infrastructure as code IAC
 
  -Infrastucture as code is the process of managing and provising computer data centers through mision readable definition files **code**
--Infrastucture as code also automated type of infrastructure management. the model approches networks,vertual mesions, storage etc in a descreptive manner via versioning (similer to devops trackig code).
--Devolopers write application code to build applications, technologies ,-java -python -node js ..ect.
+ -Infrastucture as code also automated type of infrastructure management. the model approches networks,vertual mesions, storage etc in a descreptive manner via versioning (similer to devops trackig code).
+ -Devolopers write application code to build applications, technologies ,-java -python -node js ..ect.
+ -As a devops enganeer will be infrastructure 1cade to build infrastructure - aws cloude farmation ,azure arm ,**terraform **
+ -IAC boosts productivity troough the automation
+ -Constistence in setup & Configaration by minimising risk of human errors 
+ - Make your infrastructure auditable ,since you can version conctrole iac configaration like any source code files, you have full traceability of chenges
 
--As a devops enganeer will be infrastructure 1cade to build infrastructure - aws cloude farmation ,azure arm ,**terraform **
+
+# terraform 
+-Terraform is a infrastructure as code iac software from Hashcorp .
+-Terraform can build infrastructure on cloud server providers such as aws ,azure ,gcp etc ..
+-Infrastructure is defined in HCL [Hashicorp Configaration Langouge]
+
+# Terraform Providers
+-Terraform relies on pligings called "providers" to intaract with remote systemO( aws,azure)
+-Every resouce type in implemented by a provider ,without providers ,terraform can't manage any kind of insrastucture
+-aws provideras
+-azure providers
+-The provider needs to be configer with proper **credentials** before it can be used .
+# AWS IAM
+- AWS Identity and Access Management [IAM] is web service that helps you securly access to aws resources.
+-You use IAM to control who is authenticated (sign in )and authorised (had permissions) to use resources.
+-
