@@ -1,0 +1,7 @@
+# Infrastructure as code IAC
+
+ -Infrastucture as code is the process of managing and provising computer data centers through mision readable definition files **code**
+-Infrastucture as code also automated type of infrastructure management. the model approches networks,vertual mesions, storage etc in a descreptive manner via versioning (similer to devops trackig code).
+-Devolopers write application code to build applications, technologies ,-java -python -node js ..ect.
+
+-As a devops enganeer will be infrastructure 1cade to build infrastructure - aws cloude farmation ,azure arm ,**terraform **
